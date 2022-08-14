@@ -3,3 +3,9 @@
 .text-grand-hotel {
   font-family: 'Grand Hotel', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+// use to constrain width on huge monitors
+.constrain {
+  max-width: 975px;
+  margin: 0 auto;
+}
