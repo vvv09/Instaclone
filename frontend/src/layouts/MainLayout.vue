@@ -4,7 +4,9 @@
       class="bg-white text-grey-10"
     >
       <q-toolbar>
-        <q-toolbar-title>
+        <q-toolbar-title
+          class="text-grand-hotel text-bold"
+        >
           Instaclone
         </q-toolbar-title>
       </q-toolbar>
@@ -45,6 +47,7 @@
 
   .q-toolbar__title {
     text-align: center;
+    font-size: 30px;
   }
 
   .q-footer {
