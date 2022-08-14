@@ -12,4 +12,6 @@
  - Vue js 3
  - Vuex 4
  - Quasar 1.0.0.
+ 
+В качестве начальной идеи мной был взят проект [Quasagram](https://www.udemy.com/course/pwa-with-vuejs-quasar-firebase/learn/lecture/20492130#overview) Денни Коннела, который я переделал на более современный и более релевантный для меня стек.
 
