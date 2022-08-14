@@ -1,0 +1,66 @@
+### --- BACKEND --- ###
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### --- FRONTEND --- ###
+
+frontend/.DS_Store
+frontend/.thumbs.db
+frontend/node_modules
+
+# Quasar core related directories
+frontend/.quasar
+frontend//dist
+
+# Cordova related directories and files
+frontend/src-cordova/node_modules
+frontend/src-cordova/platforms
+frontend/src-cordova/plugins
+frontend/src-cordova/www
+
+# Capacitor related directories and files
+frontend/src-capacitor/www
+frontend/src-capacitor/node_modules
+
+# BEX related directories and files
+frontend/src-bex/www
+frontend/src-bex/js/core
+
+# Log files
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
